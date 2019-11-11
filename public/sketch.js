@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1490, 734);
+  createCanvas(screen.width, screen.availHeight);
   textFont(font);
   ship = new Ship();
 
